@@ -69,6 +69,6 @@ nav img{
   transform: translate(-50%, -50%); /*Adjust the position based on the image's size */
   color: rgb(255, 255, 255);
   text-decoration: none;
-  font-size: 20px;
+  font-size: 26px;
   font-family: 'Helvetica'
 }

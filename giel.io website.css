@@ -32,10 +32,10 @@ nav img{
   left: 50%;
   transform: translate(-50%, -50%); /*Adjust the position based on the image's size */
 }
-.nav-links ul.horizontal-list li{
+.nav-links ul li{
   list-style: none;
   display: inline-block;
-  padding: 8px 12px;
+  padding: 2px 2px;
   position: relative;
 }
 .nav-links ul li a{

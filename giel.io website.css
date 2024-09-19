@@ -30,6 +30,7 @@ nav img{
   position: absolute;
   top: 22%;
   left: 50%;
+  transform: translate(-50%, -50%); /*Adjust the position based on the image's size */
 }
 .nav-links ul li{
   list-style: none;

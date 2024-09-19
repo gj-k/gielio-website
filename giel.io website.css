@@ -24,11 +24,12 @@ nav img{
   transform: translate(-50%, -50%);
 }
 .nav-links{
+  padding: 2% 2% 2% 2%;
   flex: 1;
-  text-align: center;/* Kan dit weg? */
+  text-align: center;
   position: absolute; /* Remove the image from the normal document flow */
-  top: 22%; /* Move the image 50% down from the top */
-  left: 50%; /* Move the image 50% to the right */
+  top: 22%;
+  left: 50%;
   transform: translate(-50%, -50%); /*Adjust the position based on the image's size */
 }
 .nav-links ul li{
@@ -45,6 +46,7 @@ nav img{
   font-weight: bold;
 }
 .name{
+  padding: 2% 2% 2% 2%;
   flex: 1;
   text-align: center;
   white-space: nowrap;
@@ -58,6 +60,7 @@ nav img{
   font-family: 'Helvetica'
 }
 .text{
+  padding: 2% 2% 2% 2%;
   flex: 1;
   text-align: center;
   position: absolute; /* Remove the image from the normal document flow */

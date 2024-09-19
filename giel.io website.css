@@ -27,7 +27,7 @@ nav img{
   flex: 1;
   text-align: center;/* Kan dit weg? */
   position: absolute; /* Remove the image from the normal document flow */
-  top: 25%; /* Move the image 50% down from the top */
+  top: 20%; /* Move the image 50% down from the top */
   left: 50%; /* Move the image 50% to the right */
   transform: translate(-50%, -50%); /*Adjust the position based on the image's size */
 }
@@ -61,7 +61,7 @@ nav img{
   flex: 1;
   text-align: center;
   position: absolute; /* Remove the image from the normal document flow */
-  top: 55%; /* Move the image 50% down from the top */
+  top: 50%; /* Move the image 50% down from the top */
   left: 50%; /* Move the image 50% to the right */
   transform: translate(-50%, -50%); /*Adjust the position based on the image's size */
   color: rgb(255, 255, 255);

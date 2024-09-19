@@ -18,7 +18,7 @@ nav{
 }
 nav img{
   width: 300px;
-  position: relative; /* Remove the image from the normal document flow */
+  position: absolute; /* Remove the image from the normal document flow */
   top: 10%; /* Move the image 50% down from the top */
   left: 50%; /* Move the image 50% to the right */
   transform: translate(-50%, -50%);
@@ -27,7 +27,7 @@ nav img{
   flex: 1;
   text-align: center;
   white-space: nowrap;
-  position: relative; /* Remove the image from the normal document flow */
+  position: absolute; /* Remove the image from the normal document flow */
   top: 27%; /* Move the image 50% down from the top */
   left: 50%; /* Move the image 50% to the right */
   transform: translate(-50%, -50%); /*Adjust the position based on the image's size */
@@ -39,7 +39,7 @@ nav img{
 .text{
   flex: 1;
   text-align: center;
-  position: relative; /* Remove the image from the normal document flow */
+  position: absolute; /* Remove the image from the normal document flow */
   top: 40%; /* Move the image 50% down from the top */
   left: 50%; /* Move the image 50% to the right */
   transform: translate(-50%, -50%); /*Adjust the position based on the image's size */
@@ -49,13 +49,13 @@ nav img{
   font-family: 'Helvetica'
 }
 .email{
-  position: relative; /* Remove the image from the normal document flow */
+  position: absolute; /* Remove the image from the normal document flow */
   top: 70%; /* Move the image 50% down from the top */
   left: 50%; /* Move the image 50% to the right */
   transform: translate(-50%, -50%);
 }
 .linkedin{
-  position: relative; /* Remove the image from the normal document flow */
+  position: absolute; /* Remove the image from the normal document flow */
   top: 80%; /* Move the image 50% down from the top */
   left: 50%; /* Move the image 50% to the right */
   transform: translate(-50%, -50%);

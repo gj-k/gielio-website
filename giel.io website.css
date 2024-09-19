@@ -5,7 +5,7 @@
 .header{
   min-height: 100vh;
   width: 100%;
-  background: url('Afbeeldingen/BAEs Frei station zwart wit.jpg');
+  background: url('Afbeeldingen/BAEs Frei station zwart wit geknipt.jpg');
   background-position: center;
   background-size: cover;
   position: relative;
@@ -28,7 +28,7 @@ nav img{
   text-align: center;
   white-space: nowrap;
   position: absolute; /* Remove the image from the normal document flow */
-  top: 27%; /* Move the image 50% down from the top */
+  top: 30%; /* Move the image 50% down from the top */
   left: 50%; /* Move the image 50% to the right */
   transform: translate(-50%, -50%); /*Adjust the position based on the image's size */
   color: rgb(255, 255, 255);
@@ -48,15 +48,24 @@ nav img{
   font-size: 20px;
   font-family: 'Helvetica'
 }
-.email{
+.nav-links{
+  flex: 1;
+  text-align: center;/* Kan dit weg? */
   position: absolute; /* Remove the image from the normal document flow */
-  top: 70%; /* Move the image 50% down from the top */
+  top: 20%; /* Move the image 50% down from the top */
   left: 50%; /* Move the image 50% to the right */
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); /*Adjust the position based on the image's size */
 }
-.linkedin{
-  position: absolute; /* Remove the image from the normal document flow */
-  top: 80%; /* Move the image 50% down from the top */
-  left: 50%; /* Move the image 50% to the right */
-  transform: translate(-50%, -50%);
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Helvetica';
+  font-weight: bold;
 }

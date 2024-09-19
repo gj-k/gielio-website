@@ -35,7 +35,7 @@ nav img{
 .nav-links ul li{
   list-style: none;
   display: inline-block;
-  padding: 8px 12px;
+  padding: 4px 4px;
   position: relative;
 }
 .nav-links ul li a{

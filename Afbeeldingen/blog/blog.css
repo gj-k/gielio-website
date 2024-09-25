@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width: 300px;
+  position: absolute; /* Remove the image from the normal document flow */
+  top: 10%; /* Move the image 50% down from the top */
+  left: 50%; /* Move the image 50% to the right */
+  transform: translate(-50%, -50%);
+}
+.text{
+  padding: 2% 2% 2% 2%;
+  flex: 0;
+  text-size-adjust: auto;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute; /* Remove the image from the normal document flow */
+  top: 50%; /* Move the image 50% down from the top */
+  left: 50%; /* Move the image 50% to the right */
+  transform: translate(-50%, -50%); /*Adjust the position based on the image's size */
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 26px;
+  font-family: 'Helvetica'
+}

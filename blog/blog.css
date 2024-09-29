@@ -4,7 +4,7 @@
   background-color: rgb(222, 222, 222);
 }
 .image img {
-  width: 300px; /* Adjust the width as needed */
+  width: 300px;
   position: fixed;
   left: 40%;
   top: 10px;

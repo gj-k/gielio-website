@@ -18,7 +18,7 @@
   width: 80%;
   flex: 1;
   text-align: justify;
-  position: relative; /* Remove the image from the normal document flow */
+  position: static; /* Remove the image from the normal document flow */
   top: 350px; /* Move the image 50% down from the top */
   left: 50%; /* Move the image 50% to the right */
   transform: translate(-50%, -50%); /*Adjust the position based on the image's size */

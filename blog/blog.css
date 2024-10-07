@@ -16,6 +16,7 @@
 .text {
   padding: 2% 2% 2% 2%;
   margin: auto;
+  place-items: center;
   width: 80%;
   flex: 1;
   text-align: justify;

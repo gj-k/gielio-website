@@ -6,8 +6,8 @@
 .image img {
   width: 300px;
   position: fixed;
-  top: 10%; /* Move the image 50% down from the top */
-  left: 50%; /* Move the image 50% to the right */
+  top: 10%;
+  left: 50%;
   transform: translate(-50%, -50%);
   padding: 20px 20px;
   max-width: 300px;
@@ -17,10 +17,10 @@
   padding: 2% 2% 2% 2%;
   width: 80%;
   flex: 1;
-  text-align: absolute;
-  position: static; /* Remove the image from the normal document flow */
-  top: 350px; /* Move the image 50% down from the top */
-  left: 50%; /* Move the image 50% to the right */
+  text-align: justify;
+  position: absolute; 
+  top: 350px;
+  left: 50%;
   color: #000;
   text-decoration: none;
   font-size: 16px;

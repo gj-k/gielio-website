@@ -70,7 +70,7 @@ nav img{
   top: 50%; /* Move the image 50% down from the top */
   left: 50%; /* Move the image 50% to the right */
   transform: translate(-50%, -50%); /*Adjust the position based on the image's size */
-  color: rgb(255, 255, 255);
+  color: rgb(27, 219, 248);
   text-decoration: none;
   font-size: 50px;
   font-family: 'Helvetica'

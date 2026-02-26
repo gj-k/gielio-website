@@ -108,7 +108,7 @@ nav img{
   /* Shrink the sub-text font size */
   .text {
     top: 50%; /* Adjusted to prevent overlapping with the name */
-    font-size: 24px;
+    font-size: 32px;
     white-space: normal;
     width: 90%;
   }

@@ -1,125 +1,60 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-.header{
+.header {
   min-height: 100vh;
   width: 100%;
   background: url('Afbeeldingen/Oostwold runway bw.jpg');
   background-position: center;
   background-size: cover;
   position: relative;
+  padding-top: env(safe-area-inset-top); /* ← add this */
 }
-nav{
-  display: flex;
-  padding: 2% 2%;
-  justify-content: space-between;
-  align-items: center;
-}
-nav img{
-  width: 300px;
-  position: absolute; /* Remove the image from the normal document flow */
-  top: 15%; /* Move the image 50% down from the top */
-  left: 50%; /* Move the image 50% to the right */
-  transform: translate(-50%, -50%);
-}
-.nav-links{
-  padding: 2% 2% 2% 2%;
-  flex: 0;
-  white-space: nowrap;
-  text-align: center;
-  position: absolute;
-  top: 27%;
-  left: 50%;
-  transform: translate(-50%, -50%); /*Adjust the position based on the image's size */
-}
-.nav-links ul li{
-  list-style: none;
-  display: inline-block;
-  padding: 4px 8px;
-  position: relative;
-}
-.nav-links ul li a{
-  color: #000;
-  text-decoration: none;
-  font-size: 15px;
-  font-family: 'Helvetica';
-  font-weight: bold;
-}
-.name{
-  padding: 2% 2% 2% 2%;
-  flex: 1;
-  text-align: center;
-  white-space: nowrap;
-  position: absolute; /* Remove the image from the normal document flow */
-  top: 35%; /* Move the image 50% down from the top */
-  left: 50%; /* Move the image 50% to the right */
-  transform: translate(-50%, -50%); /*Adjust the position based on the image's size */
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-size: 50px;
-  font-family: 'Helvetica'
-}
-.text{
-  padding: 2% 2% 2% 2%;
-  flex: 0;
-  text-size-adjust: auto;
-  text-align: center;
-  white-space: nowrap;
-  position: absolute; /* Remove the image from the normal document flow */
-  top: 45%; /* Move the image 50% down from the top */
-  left: 50%; /* Move the image 50% to the right */
-  transform: translate(-50%, -50%); /*Adjust the position based on the image's size */
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-size: 50px;
-  font-family: 'Helvetica'
-}
-/* --- Your existing styles stay the same above this line --- */
-
-/* Mobile Responsive Styles (Screens smaller than 768px) */
 @media (max-width: 768px) {
-  
-  /* Adjust the logo size so it doesn't take up the whole screen */
   nav img {
-    width: 200px; 
-    top: 8%;
+    width: 200px;
+    top: 10%;
   }
-
-  /* Move the navigation links down and allow them to wrap if needed */
   .nav-links {
-    top: 20%;
+    top: 22%;
     width: 90%;
   }
-  
   .nav-links ul li {
     display: inline-block;
     padding: 5px 10px;
   }
-
-  /* Shrink the main heading font size */
   .name {
-    top: 35%;
-    font-size: 28px; /* Significantly smaller for mobile */
-    white-space: normal; /* Allows text to wrap to a second line if too long */
+    top: 37%;
+    font-size: 28px;
+    white-space: normal;
     width: 90%;
   }
-
-  /* Shrink the sub-text font size */
   .text {
-    top: 50%; /* Adjusted to prevent overlapping with the name */
+    top: 52%;
     font-size: 32px;
     white-space: normal;
     width: 90%;
   }
 }
-
-/* Extra Small Devices (Phones under 480px) */
-@media (max-width: 480px) {
+@media (orientation: landscape) and (max-height: 500px) {
+  nav img {
+    width: 80px;
+    top: 18%;
+  }
+  .nav-links {
+    top: 38%;
+    width: 90%;
+  }
+  .nav-links ul li a {
+    font-size: 12px;
+  }
   .name {
-    font-size: 22px;
+    top: 55%;
+    font-size: 18px;
+    white-space: normal;
+    width: 90%;
   }
   .text {
-    font-size: 30px;
+    top: 74%;
+    font-size: 16px;
+    white-space: normal;
+    width: 90%;
   }
 }

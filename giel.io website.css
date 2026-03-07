@@ -76,6 +76,10 @@ nav img{
   font-size: 50px;
   font-family: 'Helvetica'
 }
+.text .highlight {
+  color: rgb(24, 216, 247);
+}
+
 /* --- Your existing styles stay the same above this line --- */
 
 /* Mobile Responsive Styles (Screens smaller than 768px) */

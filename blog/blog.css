@@ -1,8 +1,29 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  background-color: rgb(222, 222, 222);
 }
+
+html {
+  background-color: rgb(40, 40, 40);
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('Afbeeldingen/Oostwold runway bw.jpg') center / cover no-repeat;
+  opacity: 0.7;
+  z-index: -1;
+}
+
 .image img {
   width: 300px;
   position: absolute;
@@ -11,10 +32,12 @@
   transform: translate(-50%, -50%);
   padding: 20px 20px;
   max-width: 300px;
-  background-color: rgb(222, 222, 222);
+  background-color: transparent;
 }
+
 .text {
   padding: 2% 2% 2% 2%;
+  padding-bottom: 60px;
   width: 80%;
   max-width: 600px;
   margin: auto;
@@ -22,10 +45,21 @@
   text-align: left;
   position: relative;
   top: 150px;
-  color: #000;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.85);
   text-decoration: none;
   font-size: 16px;
   font-family: 'Helvetica';
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.text h3 {
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.85);
+}
+
+.text a {
+  color: rgb(24, 216, 247);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.85);
 }

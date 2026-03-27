@@ -26,12 +26,13 @@ body::before {
 
 .image img {
   width: 300px;
-  position: absolute;
   position: fixed; 
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 20px 20px;
+  display: block;
+  margin: 20px auto;
   max-width: 300px;
   background-color: transparent;
 }
